@@ -4,7 +4,9 @@
   "description": "Server used to store shortened urls",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec --recursive",
+    "start-dev": "nodemon index.js localhost 8080",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,13 @@
   "homepage": "https://github.com/alanj1998/server-url-shortener#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "mongodb": "^3.0.8"
+    "mongodb": "^3.0.8",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4"
   }
 }

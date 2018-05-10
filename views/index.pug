@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+    container
+        .jumbotron.text-center
+            h1 Enter a url to shorten it!
+            .input-group
+                span#basic-addon3.input-group-addon https://
+                input#basic-url.form-control(type='text' aria-describedby='basic-addon3')
+            button.btn-success Submit
