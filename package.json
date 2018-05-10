@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Server used to store shortened urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanj1998/server-url-shortener.git"
+  },
+  "author": "AlanJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanj1998/server-url-shortener/issues"
+  },
+  "homepage": "https://github.com/alanj1998/server-url-shortener#readme"
+}
